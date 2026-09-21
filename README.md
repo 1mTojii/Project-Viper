@@ -1,7 +1,7 @@
 # Project-Viper
-This is my first big project. I dual booted my laptop with windows and kali linux. The Kali is focused with 100% anonymity and security from outside attacks. The biggest project here is the LLM i am working on from this Kali, Project Viper. This LLM is focused on pentesting and data management
+This is my first big project. I dual booted my laptop with windows and kali linux. The Kali is focused with 100% anonymity and security from outside attacks. The biggest project here is the local AI i am working on from this Kali, Project Viper. This Ai assistant is focused on pentesting and data management
 
-Viper is in the Alpha - Beta at phase at the moment i am still in the process developing the LLM. Its pretty trash at the moment check up on this project in a couple of months.
+Viper is in the Alpha - Beta at phase at the moment i am still in the process developing the tool. Its pretty trash at the moment check up on this project in a couple of months.
 
 I Dual booted my laptop into Windows + Kali, hardened the Kali side LUKS encryption, VPN, the works, and built a locally-run, uncensored pentest LLM on top of it called **Viper**.
 
