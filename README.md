@@ -28,7 +28,7 @@ WhiteRabbitNeo is purpose-built for offensive/defensive security work. It doesn'
 - **Planned**: Kill switch
 ## Setup
 
-Rough version — full step-by-step is still getting cleaned up as I go:
+Rough version - full step-by-step is still getting cleaned up as I go:
 
 ```bash
 # Install Ollama
@@ -52,13 +52,13 @@ The `Modelfile` in this repo has the full system prompt, chat template, and stop
 
 ## AI disclosure
 
-I used Claude to help me debug this — figuring why my first few Modelfiles kept breaking (turns out newlines matter and I fumbled that more times than I'd like to admit), and general "why is this thing hallucinating a fake toolkit that doesn't exist" troubleshooting. I understand what every piece here does and why — this isn't a copy-paste project — but I'm not going to pretend I one-shotted the Modelfile syntax on the first try either. Full transparency, no shame in it.
+I used Claude to help me debug this, figuring why my first few Modelfiles kept breaking (turns out newlines matter and I fumbled that more times than I'd like to admit), and general "why is this thing hallucinating a fake toolkit that doesn't exist" troubleshooting. I understand what every piece here does and why, this isn't a copy-paste project, but I'm not going to pretend I one-shotted the Modelfile syntax on the first try either. Full transparency, no shame in it.
 
 ## Responsible use
 
-This project is built on WhiteRabbitNeo, which ships under a permissive license **plus a Usage Restrictions Extension** — no military use, no harming minors, no disinformation, no discrimination, no PII misuse, etc. Since this repo's Modelfile is a derivative of that model, those same restrictions apply here too. Full terms: see WhiteRabbitNeo's model card on Hugging Face.
+This project is built on WhiteRabbitNeo, which ships under a permissive license **plus a Usage Restrictions Extension** no military use, no harming minors, no disinformation, no discrimination, no PII misuse, etc. Since this repo's Modelfile is a derivative of that model, those same restrictions apply here too. Full terms: see WhiteRabbitNeo's model card on Hugging Face.
 
-Practically: this is a personal learning tool for CTFs, HTB boxes, and my own lab environment. Point it at systems you own or have explicit permission to test. Same rules as any pentest tool — nmap, Metasploit, whatever — legality is about what you point it at, not the tool itself.
+Practically: this is a personal learning tool for CTFs, HTB boxes, and my own lab environment. Point it at systems you own or have explicit permission to test. Same rules as any pentest tool, nmap, Metasploit, whatever, legality is about what you point it at, not the tool itself.
 
 ## Status
 
@@ -66,7 +66,7 @@ Actively being built. Dual boot. Viper running and behaving (mostly). RAG/knowle
 
 ## Credits
 
-- [WhiteRabbitNeo](https://huggingface.co/WhiteRabbitNeo) / Kindo.ai — base model
-- [Ollama](https://ollama.com) — local LLM runtime
-- [ProtonVPN](https://protonvpn.com) — VPN
-- [AnythingLLM](https://anythingllm.com) — RAG layer (planned)
+- [WhiteRabbitNeo](https://huggingface.co/WhiteRabbitNeo) / Kindo.ai - base model
+- [Ollama](https://ollama.com) - local LLM runtime
+- [ProtonVPN](https://protonvpn.com) - VPN
+- [AnythingLLM](https://anythingllm.com) - RAG layer (planned)
