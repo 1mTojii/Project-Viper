@@ -11,7 +11,7 @@ I'm a third-year Cybersecurity student, this is just a learning project, not a p
 
 ## What's actually in here
 
-- **Viper**: a custom Ai agent built on the [WhiteRabbitNeo-7B](https://huggingface.co/WhiteRabbitNeo/WhiteRabbitNeo-7B-v1.5a) LLM, with a custom Modelfile. Personality tweaks, a fixed chat template, the base model's default template didn't set stop tokens properly and would ramble into fake conversations — that took way too long to debug, and a system prompt aimed at keeping answers direct instead of walking through an unnecessary reasoning framework for every message. 
+- **Viper**: a custom Ai agent built on the [WhiteRabbitNeo-7B](https://huggingface.co/WhiteRabbitNeo/WhiteRabbitNeo-7B-v1.5a) LLM, with a custom Modelfile. Personality tweaks, a fixed chat template, the base model's default template didn't set stop tokens properly and would ramble into fake conversations, that took way too long to debug, and a system prompt aimed at keeping answers direct instead of walking through an unnecessary reasoning framework for every message. 
 - In progress RAG setup via [AnythingLLM](https://anythingllm.com) so Viper can reference my own notes, PTES/OWASP docs, and MITRE ATT&CK data, Half of wikipedia instead of just guessing.
 
 ## Why "uncensored"
@@ -60,9 +60,12 @@ This project is built on WhiteRabbitNeo, which ships under a permissive license 
 
 Practically: this is a personal learning tool for CTFs, HTB boxes, and my own lab environment. Point it at systems you own or have explicit permission to test. Same rules as any pentest tool, nmap, Metasploit, whatever, legality is about what you point it at, not the tool itself.
 
+## What's actually in here
+
+
 ## Status
 
-Actively being built. Dual boot. Viper running and behaving (mostly). RAG/knowledge feeding and a lot more — in progress. Might eventually move the LLM work to my heavier pc once Im fed up with how slow this process is.
+Actively being built. Dual boot. Viper running and behaving (mostly). RAG/knowledge feeding and a lot more - in progress. Might eventually move the LLM work to my heavier pc once Im fed up with how slow this process is.
 
 ## Credits
 
