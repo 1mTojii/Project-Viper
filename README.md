@@ -62,7 +62,7 @@ Practically: this is a personal learning tool for CTFs, HTB boxes, and my own la
 
 ## Status
 
-Actively being built. Dual boot ✅. Viper running and behaving (mostly) ✅. RAG/knowledge feeding and a lot more — in progress. Might eventually move the heavier LLM work to my desktop once I sort out the specs on that machine.
+Actively being built. Dual boot. Viper running and behaving (mostly). RAG/knowledge feeding and a lot more — in progress. Might eventually move the LLM work to my heavier pc once Im fed up with how slow this process is.
 
 ## Credits
 
